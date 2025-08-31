@@ -120,8 +120,78 @@ int main() {
     printf("Números de Pontos Turísticos da carta 1 é maior do que Números de Pontos Turísticos da carta 2: %d\n", resultadoNumeroPontosTuristicos);
     printf("Densidade Populacional da carta 1 é menor do que Densidade Populacional da carta 2: %d\n", resultadoDensPopulacao);
     printf("PIB per Capta da carta 1 é maior do que PIB per Capta da carta 2: %d\n", resultadoPIBperCapta);
-    printf("Super Poder da carta 1 é maior do que Super Poder da carta 2: %d\n", resultadoSuperPoder);
+    printf("Super Poder da carta 1 é maior do que Super Poder da carta 2: %d\n\n", resultadoSuperPoder);
 
- 
+    //Comparando usando 'if else'
+    printf ("\n ===== Comparando número de habitantes utilizando 'if else'  ===== \n\n");
+    if (populacao1 > populacao2) {     
+    printf ("População 1 é maior que População 2\n");
+    }
+    else if (populacao1 < populacao2) {
+    printf ("População 1 é menor que População 2\n");
+    }
+    else {
+    printf ("População 1 é igual à População 2\n");
+    }
+    printf ("Número de habitantes da população 1: %lu\n", populacao1);
+    printf ("Número de habitantes da população 2: %lu\n", populacao2);
+
+    //Comparando usando 'if else'
+    printf ("\n ===== Comparando PIB das cidades utilizando 'if else'  ===== \n\n");
+    if (pib1 > pib2) {     
+    printf ("PIB da cidade 1 é maior que PIB da cidade 2\n");
+    }
+    else if (pib1 < pib2) {
+    printf ("PIB da cidade 1 é menor que PIB da cidade 2\n");
+    }
+    else {
+    printf ("PIB da cidade 1 é igual à PIB da cidade 2\n");
+    }
+    printf ("PIB da cidade 1: %f\n", pib1);
+    printf ("PIB da cidade 2: %f\n", pib2);
+
+    //Comparando usando 'if else'
+    printf ("\n ===== Comparando área da cidade utilizando 'if else'  ===== \n\n");
+    if (area1 > area2) {     
+    printf ("Área da cidade 1 é maior que Área da cidade 2\n");
+    }
+    else if (area1 < area2) {
+    printf ("Área da cidade 1 é menor que Área da cidade 2\n");
+    }
+    else {
+    printf ("Área da cidade 1 é igual à Área da cidade 2\n");
+    }
+    printf ("Área da cidade 1: %f\n", area1);
+    printf ("Área da cidade 2: %f\n", area2);
+
+    //Comparando usando 'if else'
+    printf ("\n ===== Comparando PIB per Capta da cidade utilizando 'if else'  ===== \n\n");
+    if (pibpercapta1 > pibpercapta2) {     
+    printf ("PIB per Capta da cidade 1 é maior que PIB per Capta da cidade 2\n");
+    }
+    else if (pibpercapta1 < pibpercapta2) {
+    printf ("PIB per Capta da cidade 1 é menor que PIB per Capta da cidade 2\n");
+    }
+    else {
+    printf ("PIB Capta da cidade 1 é igual à PIB per Capta da cidade 2\n");
+    }
+    printf ("PIB per Capta da cidade 1: %f\n", pibpercapta1);
+    printf ("PIB per Capta da cidade 2: %f\n", pibpercapta2);
+
+    //Comparando usando 'if else'
+    printf ("\n ===== Comparando Densidade Populacional da cidade utilizando 'if else'  ===== \n\n");
+    if (denspopulacao1 < denspopulacao2) {     
+    printf ("Densidade Populacional da cidade 1 é menor que Densidade Populacional da cidade 2\n");
+    }
+    else if (denspopulacao1 > denspopulacao2) {
+    printf ("Densidade Populacional da cidade 1 é maior que Densidade Populacional da cidade 2\n");
+    }
+    else {
+    printf ("Densidade Populacional da cidade 1 é igual à Densidade Populacional da cidade 2\n");
+    }
+    printf ("Densidade Populacional da cidade 1: %f\n", denspopulacao1);
+    printf ("Densidade Populacional da cidade 2: %f\n", denspopulacao2);
+
+
     return 0;
 }
